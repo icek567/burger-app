@@ -1,5 +1,5 @@
-<img src="/public/assets/img/burger.png.jpg">
-<header>Eat yummy burger</header>
+<img src="/assets/img/burger.png.jpg">
+<header>Eat the burger if you can</header>
 
 <br>
 
@@ -16,7 +16,7 @@
 </form>
 
 <div class="rightcontainer">
-  {{#each burger}}
+  {{#each burgers}}
     {{#if devoured}}
       {{> burger/burger-block devoured=true}}
     {{/if}}
@@ -24,7 +24,7 @@
 </div>
 
 <div class="leftcontainer">
-  {{#each burger}}
+  {{#each burgers}}
     {{#unless devoured}}
       {{> burger/burger-block devoured=false}}
     {{/unless}}
