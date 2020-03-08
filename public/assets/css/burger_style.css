@@ -42,11 +42,16 @@ textarea {
 .leftcontainer {
     width: 50%;
     float: left;
+    background: rgba(3, 39, 104, 0.5);
+    padding-top: 25px;
+
 }
 
 .rightcontainer {
     width: 50%;
     float: right;
+    background: rgba(233, 3, 3, 0.5);
+    padding-top: 25px;
 }
 
 .container{
