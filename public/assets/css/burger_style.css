@@ -1,8 +1,7 @@
 body {
-    background-image: url("https://us.123rf.com/450wm/viteethumb/viteethumb1801/viteethumb180100012/92938082-bar-de-mesa-superior-con-fondo-de-restaurante-blur-bar.jpg?ver=6");
+    background-image: url("https://images.pexels.com/photos/347139/pexels-photo-347139.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
     font-family: 'Times New Roman', Times, serif;
-    color: white
-    ;
+    color: white;
 }
 
 header {
@@ -16,6 +15,7 @@ img {
     height: 200px;
     display: block;
     margin: auto;
+    padding-top: 5px;
 
 }
 
@@ -33,32 +33,42 @@ textarea {
 .devoured {
     text-align: center;
     opacity: 50%;
+    margin-bottom: 5px;
 }
 
 .notdevoured {
     text-align: center;
+    margin-bottom: 5px;
 }
 
-.leftcontainer {
-    width: 50%;
+#burger-add {
+    width: 45%;
     float: left;
-    background: rgba(3, 39, 104, 0.5);
-    padding-top: 25px;
-
+    background: rgb(3, 39, 104);
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
 }
 
-.rightcontainer {
-    width: 50%;
+#burger-ate {
+    width: 45%;
     float: right;
-    background: rgba(233, 3, 3, 0.5);
-    padding-top: 25px;
+    background: rgb(230, 5, 5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
 }
 
 .container{
     text-align: left;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.75);
     border-top: none;
     padding-left: 10px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: block;
 }
 
 button{
