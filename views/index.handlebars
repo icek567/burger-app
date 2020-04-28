@@ -15,7 +15,7 @@
   <button type="submit">Add Burger</button>
 </form>
 
-<div class="rightcontainer">
+<div class="card" id="burger-ate">
   {{#each burgers}}
     {{#if devoured}}
       {{> burger/burger-block devoured=true}}
@@ -23,7 +23,7 @@
   {{/each}}
 </div>
 
-<div class="leftcontainer">
+<div class="card" id="burger-add">
   {{#each burgers}}
     {{#unless devoured}}
       {{> burger/burger-block devoured=false}}
