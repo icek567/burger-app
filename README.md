@@ -4,6 +4,14 @@ Eat all of the burgers that you want! This application uses express handlebars a
 ## Getting Started
 To deploy the project into Heroku make sure that you include JawsDB MySql add on from heroku. For testing out on your local machine, npm install dependencies then on terminal follow with npm start. After this, open the browser at localhost8080.
 
+
+* Localhost deployment code
+
+![](public/assets/img/burger-instructions.jpg)
+
+
+
+
 * For Heroku deployment, make sure to add the connection to JawsDB on the “config/connection.js”:
 
 ![](public/assets/img/connection.jpg)
@@ -12,10 +20,6 @@ To deploy the project into Heroku make sure that you include JawsDB MySql add on
 * npm install express
 * npm install express-handlebars
 * npm install mysql
-
-Localhost deployment code
-
-![](public/assets/img/burger-instructions.jpg)
 
 
 ## Deployment
