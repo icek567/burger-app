@@ -11,11 +11,12 @@ header {
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 250px;
     display: block;
     margin: auto;
     padding-top: 5px;
+    margin-bottom: 5px;
 
 }
 
