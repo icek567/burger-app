@@ -1,14 +1,14 @@
 {{#if devoured}}
 <div class="devoured">{{burger_name}}
-    <button class="delete" data-id="{{this.id}}">Delete</button>
+    <button class="btn btn-light btn-sm delete" data-id="{{this.id}}">Delete</button>
 </div>
 
 {{else}}
 <div class="notdevoured">{{burger_name}}
-    <button class="update" data-id="{{id}}">
+    <button class="btn btn-primary btn-sm update" data-id="{{id}}">
     Devour
     </button>
-    <button class="delete" data-id="{{this.id}}">Delete</button>
+    <button class="btn btn-danger btn-sm delete" data-id="{{this.id}}">Delete</button>
 </div>
 
 
