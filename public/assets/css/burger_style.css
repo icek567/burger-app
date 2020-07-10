@@ -58,6 +58,7 @@ textarea {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 .container{
@@ -76,3 +77,20 @@ button{
     margin-left: auto;
     margin-right: auto;
 }
+
+.logo{
+    position: fixed;
+    border-radius: 50px;
+    height: 150px;
+    width: 150px;
+    z-index: -1;
+    bottom: 0px;
+    right: 0px;
+    margin-right: 10px;
+    
+}
+
+
+@media screen and (max-height: 450px) {
+    .logo {padding-top: 15px;}
+  }
