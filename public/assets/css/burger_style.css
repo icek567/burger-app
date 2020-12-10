@@ -80,14 +80,11 @@ button{
 
 .logo{
     position: fixed;
-    border-radius: 50px;
-    height: 150px;
-    width: 150px;
     z-index: -1;
     bottom: 0px;
     right: 0px;
+    margin-top: 25px;
     margin-right: 10px;
-    
 }
 
 
